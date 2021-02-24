@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kesehatans on Emak Bloger</title>
+    <link>https://www.emakbloger.com/kesehatan/</link>
+    <description>Recent content in Kesehatans on Emak Bloger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Feb 2021 15:22:25 +0700</lastBuildDate><atom:link href="https://www.emakbloger.com/kesehatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artikel Kesehatan</title>
+      <link>https://www.emakbloger.com/kesehatan/artikel-kesehatan/</link>
+      <pubDate>Wed, 24 Feb 2021 15:22:25 +0700</pubDate>
+      
+      <guid>https://www.emakbloger.com/kesehatan/artikel-kesehatan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,365 @@
+/*
+css home page by Silohon
+Ini adalah css bagian Home page
+Jika ada bagian tampilan home page atau landing page yang mau diedit
+silahkan edit disini
+*/
+
+/* css cover jumbotron */
+
+.jumbotron {
+    background-image: url('/asset/banner-1.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: rgb(71, 71, 70);
+    font-weight: bold;
+    margin-top: 100px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.jumbotron hr {
+    border-color: black;
+    width: 100px;
+    border-width: 3px;
+}
+
+.jumbotron p {
+    color: rgb(71, 71, 70);
+    font-size: xx-large;
+    padding-bottom: 25px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.jumbotron .btn {
+    margin-bottom: 70px;
+    margin-top: 25px;
+    background-color: rgb(175, 149, 115);
+    border-color: white;
+}
+
+.navbar-brand img {
+    width: 60px;
+    border-style: outset;
+}
+
+.navbar-nav {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+/* end css */
+img {
+    max-width: 100px,  !important;
+}
+
+/* end cover jumbotron */
+
+
+/* css bagian tentang halaman landing page */
+
+
+
+/* landing page bagian 1 */
+#bagian-1 .gambar {
+    max-width: 100%;
+}
+
+#bagian-1 .card {
+    border: none;
+    margin-top: -70px;
+    background-color: #af9573;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#bagian-1 #tentang {
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 40px;
+}
+
+#bagian-1 hr {
+    border-color: #af9573;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+#bagian-1 .card-body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#bagian-1 .card-title {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#bagian-1 p {
+    font-family: 'Akaya Kanadaka', cursive;
+    color: white;
+}
+
+#bagian-1 .kotak {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#bagian-1 #news-letter {
+    font-family: 'Akaya Kanadaka', cursive;
+    color: white;
+    text-align: center;
+}
+
+#bagian-1 form {
+    margin-bottom: 40px;
+}
+
+/* end bagian 1 */
+
+/* css landingpage bagian ke 2 */
+#artikel {
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin-top: 12px;
+    padding-top: 20px;
+}
+
+.garis {
+    width: 120px;
+    border-width: 3px;
+}
+
+#landing-page {
+    background-color: rgb(236, 236, 211);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#landing-page .gambar {
+    max-width: 100%;
+    border-color: black;
+    padding: 10px;
+    border: outset;
+    overflow: scroll;
+    margin-bottom: -100px;
+}
+
+#landing-page .card {
+    background-color: transparent;
+    border-radius: 40px;
+    border: none;
+    padding: 20px;
+}
+
+#landing-page .card-body {
+    background-color: white;
+    font-family: 'Akaya Kanadaka', cursive;
+    border-radius: 20px;
+}
+
+#landing-page .card-title {
+    color: rgb(71, 71, 70);
+    text-align: center;
+}
+
+#landing-page .btn {
+    background-color: rgb(175, 149, 115);
+    float: right;
+}
+
+#landing-page hr {
+    width: 150px;
+    border-color: rgb(71, 71, 70);
+    border-width: 3px;
+}
+
+/* end bagian 2 */
+
+/* end css halaman landing page */
+
+
+
+/* css halaman tentang dan lain lain */
+#body-webpage img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#body-webpage .bagian-webpage {
+    background-color: rgb(236, 236, 211);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+
+#body-webpage .bagian-webpage .judul-halaman {
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#body-webpage h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#body-webpage p {
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#body-webpage p a {
+    color: rgb(199, 121, 20);
+    text-decoration: none;
+}
+
+#body-webpage p a:hover {
+    color: rgb(175, 149, 115);
+}
+
+/* end halama tentang */
+
+/* css bagian footer */
+#footer {
+    background-color: #af9573;
+}
+
+/* end footer */
+
+/* 
+    end css home page atau landing page
+*/
+
+
+/* 
+    css halaman list by silohon
+    fb: https://www.facebook.com/silohonjr
+    instagram: https://instagram.com/silohon94
+*/
+
+/* bagian list artikel */
+#body-list .list-artikel {
+    background-color: rgb(236, 236, 211);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+
+#body-list .judul-list {
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+}
+
+.list-artikel .card {
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.list-artikel a {
+    color: #5a4a35;
+    text-decoration: none;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+}
+
+.list-artikel a:hover {
+    color: rgb(175, 149, 115);
+}
+
+/* end list artikel */
+
+/* bagian halaman tentang di list artikel */
+#tentang-halaman .gambar {
+    max-width: 100%;
+}
+
+#tentang-halaman .card {
+    border: none;
+    margin-top: -20px;
+    background-color: #af9573;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#tentang-halaman #tentang {
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 40px;
+}
+
+#tentang-halaman hr {
+    border-color: #af9573;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+#tentang-halaman .card-body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#tentang-halaman .card-title {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#tentang-halaman p {
+    font-family: 'Akaya Kanadaka', cursive;
+    color: white;
+}
+
+#tentang-halaman .kotak {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#tentang-halaman #news-letter {
+    font-family: 'Akaya Kanadaka', cursive;
+    color: white;
+    text-align: center;
+}
+
+#tentang-halaman form {
+    margin-bottom: 40px;
+}
+
+/* end bagian tentang dilist artikel */
+
+/* end css halaman list */
